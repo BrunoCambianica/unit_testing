@@ -4,11 +4,17 @@
   "description": "Unit testing nodejs ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test",
+    "start": "node index.js"
   },
   "author": "Bruno Cambianica",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "request": "^2.88.0"
   }
 }
